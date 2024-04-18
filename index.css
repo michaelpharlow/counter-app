@@ -11,7 +11,6 @@ body {
     background-size: cover;
     background-position: center;
     width: 500px;
-    height: 100vh;
 }
 
 h1 {
@@ -53,4 +52,10 @@ button:focus, button:hover, button:active {
     background-color: grey;
     width: 60%;
     margin: 20px auto;
+    padding: 7px;
+    border-radius: 25px;
+}
+
+#entries-el {
+    list-style: none;
 }
